@@ -1,0 +1,146 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    background-color: #eaefd3;;
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-link{
+    padding: 5px 0px;
+    margin-bottom: 0px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link a:hover{
+    text-decoration: none;
+    color: #4B5358;
+}
+
+#nav{
+    background-color: #b3c0a4;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 200px;   
+    border-radius: 50%;
+    margin-top: 30px;
+}    
+
+p{
+    width: 90%;
+    margin: 0 5% 80px 5%;
+}
+
+.project-picture{
+    background-color: black;
+    width: 80%;
+    height: 80px;
+    margin: 40px 10% 5px 10%;
+}
+
+.project-description{
+    font-size: .9em;
+    margin: 10px 10%;
+}
+
+#contact-me{
+    height: 200px;
+    margin-top: 60px;
+    padding-top: 10px;
+    background-color: #b3c0a4;
+}
+
+#contact-me div{
+    margin-bottom: 20px;
+}
+
+#contact-me a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(min-width:500px){
+    h1{
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .nav-link{
+        padding: 5px 0px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    
+    .nav-link a{
+        text-decoration: none;
+        color: black;
+    }
+    .nav-link a:hover{
+        text-decoration: none;
+        color: #4B5358;
+    }
+    
+    #nav{
+        background-color: #b3c0a4;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+    img{
+        width: 200px;   
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 0px;
+        float: left;
+    }    
+    
+    p{
+        width: 90%;
+        margin: 0 5% 80px 5%;
+    }
+    
+    .project-picture{
+        background-color: black;
+        width: 80%;
+        height: 80px;
+        margin: 40px 10% 5px 10%;
+    }
+    
+    .project-description{
+        font-size: .9em;
+        margin: 10px 10%;
+    }
+    
+    #contact-me{
+        height: 200px;
+        margin-top: 60px;
+        padding-top: 10px;
+        background-color: #b3c0a4;
+    }
+    
+    #contact-me div{
+        margin-bottom: 20px;
+    }
+    
+    #contact-me a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
